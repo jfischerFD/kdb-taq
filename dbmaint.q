@@ -1,4 +1,5 @@
 / kdb+ partitioned database maintenance
+/ johns code
 \d .os
 WIN:.z.o in`w32`w64
 pth:{p:$[10h=type x;x;string x];if[WIN;p[where"/"=p]:"\\"];(":"=first p)_ p}
